@@ -1,13 +1,13 @@
-package com.thoughtworks.parking_lot;
+package com.thoughtworks.miniPackage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ParkingLotApplication {
+public class MiniPackageApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ParkingLotApplication.class, args);
+        SpringApplication.run(MiniPackageApplication.class, args);
     }
 
 }

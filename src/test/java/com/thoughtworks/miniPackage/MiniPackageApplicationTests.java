@@ -1,4 +1,4 @@
-package com.thoughtworks.parking_lot;
+package com.thoughtworks.miniPackage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ParkingLotApplicationTests {
+public class MiniPackageApplicationTests {
 
     @Test
     public void contextLoads() {

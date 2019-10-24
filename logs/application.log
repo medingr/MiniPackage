@@ -1,0 +1,60 @@
+2019-10-24 11:44:04.445  INFO 73928 --- [main] c.t.miniPackage.MiniPackageApplication   : Starting MiniPackageApplication on ITAMNL06-W10 with PID 73928 (D:\Medingr2_ITA\MiniPackage\Backend\MiniPackageBackEnd\build\classes\java\main started by medingr2 in D:\Medingr2_ITA\MiniPackage\Backend\MiniPackageBackEnd)
+2019-10-24 11:44:04.447  INFO 73928 --- [main] c.t.miniPackage.MiniPackageApplication   : No active profile set, falling back to default profiles: default
+2019-10-24 11:44:05.072  INFO 73928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 11:44:05.134  INFO 73928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-10-24 11:44:05.440  INFO 73928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$259a931] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-24 11:44:05.859  INFO 73928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-10-24 11:44:05.887  INFO 73928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 11:44:05.887  INFO 73928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 11:44:06.048  INFO 73928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 11:44:06.049 DEBUG 73928 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-24 11:44:06.049  INFO 73928 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1567 ms
+2019-10-24 11:44:06.194  INFO 73928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-24 11:44:06.374  INFO 73928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-24 11:44:06.433  INFO 73928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-24 11:44:06.502  INFO 73928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-24 11:44:06.503  INFO 73928 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-24 11:44:06.632  INFO 73928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-24 11:44:06.753  INFO 73928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-24 11:44:07.295  INFO 73928 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@79d14037'
+2019-10-24 11:44:07.297  INFO 73928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-24 11:44:07.545 DEBUG 73928 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-24 11:44:07.672  INFO 73928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 11:44:07.679 DEBUG 73928 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-24 11:44:07.719  WARN 73928 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-24 11:44:07.745 DEBUG 73928 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-10-24 11:44:07.762 DEBUG 73928 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-24 11:44:07.769 DEBUG 73928 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-24 11:44:07.905  INFO 73928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-24 11:44:07.907  INFO 73928 --- [main] c.t.miniPackage.MiniPackageApplication   : Started MiniPackageApplication in 3.931 seconds (JVM running for 4.29)
+2019-10-24 11:44:21.783  INFO 73928 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 11:44:21.785  INFO 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 11:44:21.785 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-10-24 11:44:21.792 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-10-24 11:44:21.793  INFO 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-10-24 11:44:21.802 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/miniPackage", parameters={}
+2019-10-24 11:44:21.807 DEBUG 73928 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.thoughtworks.miniPackage.model.MiniPackage> com.thoughtworks.miniPackage.controller.MiniPackageController.createPackage(com.thoughtworks.miniPackage.model.MiniPackage)
+2019-10-24 11:44:21.873 DEBUG 73928 --- [http-nio-8082-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.thoughtworks.miniPackage.model.MiniPackage@5994cc36]
+2019-10-24 11:44:21.943 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2019-10-24 11:44:21.970 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.thoughtworks.miniPackage.model.MiniPackage@5994cc36]
+2019-10-24 11:44:21.980 DEBUG 73928 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2019-10-24 11:44:22.713 DEBUG 73928 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/miniPackage", parameters={}
+2019-10-24 11:44:22.714 DEBUG 73928 --- [http-nio-8082-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.thoughtworks.miniPackage.model.MiniPackage> com.thoughtworks.miniPackage.controller.MiniPackageController.createPackage(com.thoughtworks.miniPackage.model.MiniPackage)
+2019-10-24 11:44:22.715 DEBUG 73928 --- [http-nio-8082-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.thoughtworks.miniPackage.model.MiniPackage@2ab4651a]
+2019-10-24 11:44:22.717 DEBUG 73928 --- [http-nio-8082-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2019-10-24 11:44:22.718 DEBUG 73928 --- [http-nio-8082-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.thoughtworks.miniPackage.model.MiniPackage@2ab4651a]
+2019-10-24 11:44:22.719 DEBUG 73928 --- [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2019-10-24 11:44:25.832 DEBUG 73928 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/miniPackage", parameters={}
+2019-10-24 11:44:25.833 DEBUG 73928 --- [http-nio-8082-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.thoughtworks.miniPackage.model.MiniPackage> com.thoughtworks.miniPackage.controller.MiniPackageController.createPackage(com.thoughtworks.miniPackage.model.MiniPackage)
+2019-10-24 11:44:25.834 DEBUG 73928 --- [http-nio-8082-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.thoughtworks.miniPackage.model.MiniPackage@4e60b5c1]
+2019-10-24 11:44:25.836 DEBUG 73928 --- [http-nio-8082-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2019-10-24 11:44:25.836 DEBUG 73928 --- [http-nio-8082-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.thoughtworks.miniPackage.model.MiniPackage@4e60b5c1]
+2019-10-24 11:44:25.837 DEBUG 73928 --- [http-nio-8082-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2019-10-24 11:44:28.325 DEBUG 73928 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/miniPackage", parameters={}
+2019-10-24 11:44:28.325 DEBUG 73928 --- [http-nio-8082-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.Iterable<com.thoughtworks.miniPackage.model.MiniPackage> com.thoughtworks.miniPackage.controller.MiniPackageController.getAllPackages(java.lang.Integer,java.lang.Integer)
+2019-10-24 11:44:28.364  INFO 73928 --- [http-nio-8082-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-24 11:44:28.460 DEBUG 73928 --- [http-nio-8082-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2019-10-24 11:44:28.465 DEBUG 73928 --- [http-nio-8082-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 1 containing com.thoughtworks.miniPackage.model.MiniPackage instances]
+2019-10-24 11:44:28.473 DEBUG 73928 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
